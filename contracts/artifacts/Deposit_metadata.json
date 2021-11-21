@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balaceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_sharedWallet",
+						"type": "address"
+					}
+				],
+				"name": "depositFundss",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/deposit.sol": "Deposit"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/deposit.sol": {
+			"keccak256": "0xc649b1b6b340b81c96e370eab54c695d815179faa30e938a29fe2b9175102747",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7d1f7c8439b4d7ab70d9e784f166325f8407e2d8e9b41a54ca53ea6df24e7da7",
+				"dweb:/ipfs/Qmd8eP8xVxxTNUtbefohm1TVdf92cuaUEyaNaNUkkKxbKA"
+			]
+		}
+	},
+	"version": 1
+}
